@@ -12,6 +12,13 @@ Two known pieces nested: the outer recursion visits every node of root; the inne
 
 **Complexity:** O(n·m) worst case, O(h) recursion.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
